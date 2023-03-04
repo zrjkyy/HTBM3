@@ -1,0 +1,95 @@
+/* CSS Document */
+/* CSS Document */
+*{ padding: 0; margin: 0;}
+html { height: 100% }
+body { font-family:"微软雅黑", "宋体", Arial; font-size: 12px; background: #f3f3f3; color: #454545; min-width: 1200px; height: 100%}
+a { text-decoration: none; cursor: pointer;}
+button { cursor: pointer; font-family:"微软雅黑", "宋体", Arial; font-size: 12px;}
+.login-box {
+	height: 100%;
+	display: flex;
+	background-color: #f8f8f8;
+}
+.login-content {
+	margin: auto;
+}
+.login_header { width: 1000px; margin: 0 auto; position: relative;}
+.login_header h1 {
+	/*    display: inline-block;
+       width: 242px;
+       height: 38px;
+       zoom: 1;
+       background: url(../images/login/bzt-logo.png) no-repeat;
+       padding-left: 108px;
+       line-height: 50px;
+       font-size: 24px;
+       font-weight: normal; */
+	display: inline-block;
+	width: 800px;
+	height: 45px;
+	zoom: 1;
+	/* background: url(../images/login/logo.png) no-repeat;  */
+	/* padding-left: 108px; */
+	line-height: 54px;
+	font-size: 24px;
+	font-weight: normal;
+}
+.login_area { width: 1000px; margin: 0 auto; position: relative;}
+.login_box { width: 380px; height: 450px; position: absolute; top: 25px; right: 20px; background: #fff;}
+.login-box {
+	background: url("../image/img_bg.png") bottom right no-repeat;
+}
+.login-box .title {
+	text-align: center;
+	padding-top: 40px;
+	margin-bottom: 30px;
+}
+.login-box .title img {
+	height: 36px;
+}
+.login_box h1 { line-height: 80px; padding-left: 32px; font-size: 24px; font-weight: normal;}
+.login_box input {
+	line-height: 20px;
+	padding: 10px 10px 10px 40px;
+	border: 1px solid #ddd;
+	width: 268px;
+	margin: 12px 30px;
+	box-shadow: none;
+	border-radius: 4px;
+	text-indent: 0;
+	/*filter: progid:DXImageTransform.Microsoft.Shado(Strength=1, Direction=90, Color='#ccc');*/
+}
+.login_box input.user { background: url(../image/icon_account_number.png) 14px 14px no-repeat;}
+.login_box input.password { background: url(../image/icon_password.png) 14px 14px no-repeat;}
+
+.login_box button {
+	height: 40px;
+	line-height: 40px;
+	border-radius: 4px;
+	border: 0;
+	background: #42A5F5;
+	color: #fff;
+	margin: 12px 30px;
+	width: 320px;
+	font-size: 16px;
+}
+.login_footer { width: 1000px; line-height: 40px; margin: 10px auto; color: #666; text-align: center;}
+.login_footer .support {
+	margin-left: 30px;
+}
+/* 后台登录 */
+.login_header.login_header_2 { width: 840px;}
+.login_body_2 {
+	overflow: hidden;
+}
+.login_body_2 .login_area { width: 820px; height: 372px; margin-top: 10px; border-radius: 10px; background-color: #fff}
+.login_body_2 .login_box { top: 12px; right: 0; height: auto;}
+.list {
+	list-style: none;
+	padding: 10px 50px;
+	margin: 0;
+}
+
+.list li {
+	margin-top: 10px;
+}

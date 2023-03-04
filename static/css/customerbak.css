@@ -1,0 +1,1390 @@
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", Arial;
+	line-height: 1.42857143
+}
+
+a,img{border:0;text-decoration:none;}
+
+em{font-style:normal;}
+
+ol, ul{list-style:none outside none;padding:0;margin:0;}
+.panel.window .panel-body, .panel .panel-body .panel-body-noheader.panel-body-noborder
+{
+	overflow-y: hidden !important;
+}
+
+.template {
+	display: none;
+}
+
+.width5 {
+	width: 5px;
+}
+
+.width15 {
+	width: 15px;
+}
+
+.width20 {
+	width: 20px;
+}
+
+.width50 {
+	width: 50px;
+}
+.width70{
+	width: 70px;	
+}
+.width80{
+	width: 80px;	
+}
+.width90{
+	width: 90px;	
+}
+.width100 {
+	width: 100px;
+}
+.width110 {
+	width: 110px;
+}
+.width130 {
+	width: 130px;
+}
+
+.width150 {
+	width: 150px;
+}
+
+.width200 {
+	width: 200px;
+}
+
+.width250 {
+	width: 250px;
+}
+
+.width300 {
+	width: 300px;
+}
+
+.width350 {
+	width: 350px;
+}
+
+.width400 {
+	width: 400px;
+}
+
+.width450 {
+	width: 450px;
+}
+
+.width500 {
+	width: 500px;
+}
+
+.width550 {
+	width: 550px;
+}
+
+.width600 {
+	width: 600px;
+}
+
+.width650 {
+	width: 650px;
+}
+
+.width700 {
+	width: 700px;
+}
+
+.width750 {
+	width: 750px;
+}
+
+.width800 {
+	width: 800px;
+}
+
+.width850 {
+	width: 850px;
+}
+
+.width900 {
+	width: 900px;
+}
+
+.width950 {
+	width: 950px;
+}
+
+.width1000 {
+	width: 1000px;
+}
+
+
+
+
+/*闂佽桨鑳剁换婵堢礊鐎ｎ剚鏆滈柛鎰╁妿濠�浼存煛瀹ュ懎妲荤紒鎲嬫嫹*/
+.disabled {
+	background-color: #DDE2E8;
+}
+
+.required {
+	color: #FF0000;
+}
+
+.mc {
+	border-color: #F0920A;
+}
+
+.box, .form {
+	font-size: 12px;
+}
+
+.box {
+	padding: 10px 5px 10px 15px;
+	overflow: auto;
+	zoom: 1;
+}
+
+.form {
+	/*border: 1px solid #efefef;*/
+}
+
+.box.form>div {
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+.box.form>input {
+	margin-bottom: 5px;
+	margin-right: 5px;
+	display: block;
+}
+.labelWidth40 {
+	float: left;
+	width: 40px !important;
+	white-space: nowrap;
+	color: #898989;
+}
+.labelWidth60 {
+	float: left;
+	width: 60px !important;
+	white-space: nowrap;
+	color: #898989;
+}
+
+.labelWidth90 {
+	float: left;
+	width: 90px;
+	white-space: nowrap;
+	color: #898989;
+}
+
+.labelWidth120 {
+	float: left;
+	width: 120px;
+	white-space: nowrap;
+	color: #898989;
+}
+
+.labelLine {
+	float: left;
+	line-height: 30px;
+}
+/** 闂佸搫鍟伴崹鎭哹el闂佺顕х换妤呭醇閿燂拷 begin**/
+.labelLine155 {
+	float: left;
+	width: 155px;
+	line-height: 30px;
+}
+
+.labelLine155 .width149 {
+	height: 18px;
+}
+
+.labelLine240 {
+	float: left;
+	width: 240px;
+	line-height: 30px;
+}
+
+.labelLine250 {
+	float: left;
+	width: 250px;
+	line-height: 30px;
+}
+
+.labelLine320 {
+	float: left;
+	width: 320px;
+	line-height: 30px;
+}
+
+.labelLine320 .width314 {
+	width: 314px;
+	height: 18px;
+}
+.labelLine440 {
+	float: left;
+	width: 440px;
+	line-height: 30px;
+}
+
+.labelLine485 {
+	float: left;
+	width: 485px;
+	line-height: 30px;
+}
+
+.labelLine485 .width479 {
+	width: 479px;
+	height: 18px;
+}
+
+.labelLine650 {
+	float: left;
+	width: 650px;
+	line-height: 30px;
+}
+
+.height18 {
+	height: 18px;
+}
+
+.labelLine650 .width644 {
+	width: 644px;
+	height: 18px;
+}
+
+.labelLine815 {
+	float: left;
+	width: 815px;
+	line-height: 30px;
+}
+
+.labelLine815 .width809 {
+	width: 809px;
+	height: 18px;
+}
+
+.labelLine300 input,.labelLine300 span.combo, .labelLine320 input,
+.labelLine320 span.combo, .labelLine485 input, .labelLine479 span.combo,
+.labelLine465 input, .labelLine465 span.combo, .labelLine650 input,
+.labelLine650 span.combo, .labelLine815 input, .labelLine815 span.combo,
+.labelLine200 input, .labelLine250 input,.labelLine240 input,
+.labelLine300 input,.labelLine350 input,
+.labelLine200 span.combo, .labelLine250 span.combo,.labelLine240 span.combo,
+.labelLine300 span.combo
+{
+	/*margin-top: 4px;*/
+	font-size: 12px;
+	margin-left: 0px;
+	width: 146px;
+	/*width: 238px;*/
+}
+.labelLine300 input[type='checkBox'],.labelLine320 input[type='checkBox'],
+.labelLine485 input[type='checkBox'], 
+.labelLine465 input[type='checkBox'],.labelLine650 input[type='checkBox'],
+.labelLine815 input[type='checkBox'], 
+.labelLine200 input[type='checkBox'],.labelLine250 input[type='checkBox'],
+.labelLine240 input[type='checkBox'],
+.labelLine300 input[type='checkBox']
+
+{
+	width:30px;
+}
+.labelLine300 input[type='radio'],.labelLine320 input[type='radio'],
+.labelLine485 input[type='radio'], 
+.labelLine465 input[type='radio'],.labelLine650 input[type='radio'],
+.labelLine815 input[type='radio'], 
+.labelLine200 input[type='radio'],.labelLine250 input[type='radio'],
+.labelLine240 input[type='radio'],
+.labelLine300 input[type='radio']
+
+{
+	width:30px;
+}
+/* 闁哄啨鍎插﹢锟犲箳瑜屽▎锟� */
+.labelLine300 input.Wdate, .labelLine320 input.Wdate,.labelLine485 input.Wdate,.labelLine465 input.Wdate,.labelLine650 input.Wdate,
+.labelLine815 input.Wdate, .labelLine500 input.Wdate,
+.labelLine200 input.Wdate, .labelLine250 input.Wdate,
+.labelLine300 input.Wdate,
+.labelLine155 input.Wdate,
+.labelLine240 input.Wdate,
+.labelLine440 input.Wdate{
+	width: 130px;
+}
+.labelLine200 input,
+.labelLine200 span.combo,
+.labelLine155 input,
+.labelLine155 span.combo{
+	width:93px;
+}
+.labelLine150 label,.labelLine155 label, .labelLine200 label, .labelLine250 label,
+.labelLine300 label, .labelLine320 label, .labelLine485 label,
+.labelLine479 label, .labelLine465 label, .labelLine650 label,
+.labelLine650 label, .labelLine815 label, .labelLine815 label {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/** 闂佸搫鍟伴崹鎭哹el闂佺顕х换妤呭醇閿燂拷 end**/
+.labelLine150 {
+	float: left;
+	width: 150px;
+	line-height: 30px;
+}
+
+.labelLine150 input, .labelLine150 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine200 {
+	float: left;
+	width: 200px;
+	line-height: 30px;
+}
+
+.labelLine200 input, .labelLine200 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine300 {
+	float: left;
+	width: 300px;
+	line-height: 30px;
+	color: #898989;
+}
+
+.labelLine300 input, .labelLine300 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine350 {
+	float: left;
+	width: 350px;
+	line-height: 30px;
+}
+
+.labelLine350 input, .labelLine350 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine400 {
+	float: left;
+	width: 400px;
+	line-height: 30px;
+}
+
+.labelLine400 input, .labelLine400 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine500 {
+	float: left;
+	width: 500px;
+	line-height: 30px;
+}
+
+.labelLine500 input, .labelLine500 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine600 {
+	float: left;
+	width: 600px;
+	line-height: 30px;
+}
+
+.labelLine600 input, .labelLine600 span.combo {
+	float: left;
+	/*margin-top: -4px;*/
+	margin-left: 0px;
+}
+
+.labelLine700 {
+	float: left;
+	width: 700px;
+	line-height: 30px;
+}
+
+.labelLine700 input, .labelLine700 span.combo {
+	float: left;
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine800 {
+	float: left;
+	width: 800px;
+	line-height: 30px;
+}
+
+.labelLine800 input, .labelLine800 span.combo {
+	float: left;
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine900 {
+	float: left;
+	width: 900px;
+	line-height: 30px;
+	color: #898989;
+}
+
+.labelLine900 input, .labelLine900 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelLine1000 {
+	float: left;
+	width: 1000px;
+	line-height: 30px;
+}
+
+.labelLine1000 input, .labelLine1000 span.combo {
+	margin-top: -4px;
+	margin-left: 0px;
+}
+
+.labelBox {
+	float: left;
+	width: auto;
+}
+
+.labelBox>div, .labelBox>input, .labelBox>select {
+	float: left;
+	margin-left: 10px;
+}
+
+.width2 {
+	width: 460px;
+}
+
+.width2left {
+	padding-left: 10px;
+}
+
+.width3 {
+	width: 771px;
+}
+
+.textareaWidth1 {
+	width: 145px;
+	resize: none;
+}
+
+.textareaWidth2 {
+	width: 455px;
+	resize: none;
+}
+
+.textareaWidth3 {
+	width: 765px;
+	resize: none;
+}
+
+.textareaWidth200 {
+	width: 200px;
+	resize: none;
+}
+
+.textareaWidth250 {
+	width: 250px;
+	resize: none;
+}
+
+.textareaWidth300 {
+	width: 300px;
+	resize: none;
+}
+
+.textareaWidth400 {
+	width: 400px;
+	resize: none;
+}
+.textareaWidth450 {
+	width: 450px;
+	resize: none;
+}
+.textareaWidth500 {
+	width: 500px;
+	resize: none;
+}
+
+.textareaWidth600 {
+	width: 600px;
+	resize: none;
+}
+
+.textareaWidth700 {
+	width: 700px;
+	resize: none;
+}
+
+.textareaWidth800 {
+	width: 800px;
+	resize: none;
+}
+
+.textareaHeight100 {
+	height: 100px;
+	resize: none;
+}
+.textareaHeight150 {
+	height: 150px;
+	resize: none;
+}
+.textareaHeight200 {
+	height: 200px;
+	resize: none;
+}
+
+.textareaHeight300 {
+	height: 300px;
+	resize: none;
+}
+
+.textareaHeight400 {
+	height: 400px;
+	resize: none;
+}
+
+.btnBox {
+	float: right;
+	width: auto;
+}
+
+a:link {
+	text-decoration: none;
+	color: #009DD9;
+}
+
+.inputCom, input {
+	border: #ddd 1px solid; /*border:#b1c242 1px solid;*/
+	background-color: #FFF;
+}
+
+.row_list {
+	padding: 5px;
+	margin: 0
+}
+
+.row_list li {
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	list-style: none;
+}
+
+.row_list li label {
+	min-width: 70px;
+	display: inline-block;
+	line-height: 20px;
+}
+
+.row_list li input {
+	width: 160px
+}
+
+
+.btnBoxSearch {
+	float: right;
+	width: auto;
+}
+
+.btnToolbar {
+	padding: 5px;
+	overflow: hidden;
+	height: 35px;
+	line-height: 35px;
+}
+
+.btnToolbar a {
+	float: left;
+}
+
+.panel.combo-p {
+	background-color: #fff;
+	overflow-y: auto;
+}
+
+.inputCom, input {
+	border: #ddd 1px solid; /*border:#b1c242 1px solid;*/
+	background-color: #FFF;
+}
+
+.attrDiv {
+	width: 350px;
+	float: left;
+	margin-right: 20px;
+	line-height: 40px;
+}
+
+.attrDiv400 {
+	width: 400px;
+	float: left;
+	margin-right: 20px;
+	line-height: 40px;
+}
+.attrDiv650 {
+	width: 650px;
+	float: left;
+	margin-right: 20px;
+	line-height: 40px;
+}
+.attrDiv850 {
+	width: 850px;
+	float: left;
+	margin-right: 20px;
+	line-height: 40px;
+}
+.attrDiv>span:first-of-type,.attrDiv400>span:first-of-type
+,.attrDiv650>span:first-of-type,.attrDiv850>span:first-of-type
+ {
+	width: 120px;
+	display: inline-block;
+	color: #898989;
+}
+.attrDiv900>span:first-of-type{
+	width: 160px;
+	display: inline-block;
+	color: #898989;
+}
+
+.attrDiv input,.attrDiv400 input
+{
+	width:160px !important;
+}
+.attrDiv400 span.combo,.attrDiv span.combo
+{
+	width:130px !important;
+}
+.attrDiv650 span.combo
+{
+	width:300px !important;
+}
+.attrDiv span.combo{
+	width:160px !important;
+}
+.attrWidth90 {
+	width: 90px;
+	display: inline-block;
+}
+
+.attr {
+	display: inline-block;
+	color: #898989;
+	line-height: 28px;
+	margin-left:10px;
+}
+
+.attr label {
+	color: black;
+}
+
+.red {
+	color: red;
+}
+.yellow{
+	color:#FFFF99;
+}
+.green{
+	color:#00FF00;
+}
+
+textarea {
+	border: 1px solid #ddd;
+	vertical-align: top;
+	word-break: break-all !important;
+}
+
+.cursor{
+	cursor:pointer
+}
+/*---------------------- 瀹搞儱鍙块弽锟� -------------------------*/
+.toolBar{
+	background-color: #3196CA;
+    color: #FFFEFC;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.tbClass {
+	background-color: #FFF8DC;
+	padding: 5px;
+	overflow: hidden;
+	height: 25px;
+	line-height: 25px;
+}
+
+.highlight {
+	color: #FF6633;
+}
+/*---------------------- 瀹搞儱鍙块弽锟� -------------------------*/
+
+/*---------------------- 鐎涙ぞ缍� -------------------------*/
+
+.text-color-theme {
+	color: #3196c9
+}
+
+.text-color-light {
+	color: #898989
+}
+
+
+.text-sm {
+	font-size: 12px
+}
+.text-md {
+	font-size: 16px
+}
+.text-lg {
+	font-size: 20px
+}
+.title-sm {
+	font-size: 16px;
+}
+.title-md {
+	font-size: 20px;
+}
+.title-lg {
+	font-size: 25px;
+}
+
+
+/*---------------------- 鐎涙ぞ缍� -------------------------*/
+
+/*---------------------- 鐢啫鐪�-------------------------*/
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.space {
+	width: 50px;
+	background-color: white;
+	display: inline-block;
+}
+.space5 {
+	width: 5px;
+	background-color: white;
+	display: inline-block;
+}
+.space10 {
+	width: 10px;
+	background-color: white;
+	display: inline-block;
+}
+.space15 {
+	width: 15px;
+	background-color: white;
+	display: inline-block;
+}
+.space20 {
+	width: 20px;
+	background-color: white;
+	display: inline-block;
+}
+.space25 {
+	width: 25px;
+	background-color: white;
+	display: inline-block;
+}
+.space30 {
+	width: 30px;
+	background-color: white;
+	display: inline-block;
+}
+.clear {
+	height: 20px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+.clear0 {
+	height: 0px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.clear5 {
+	height: 5px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.clear10 {
+	height: 10px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.clear15 {
+	height: 15px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.clear20 {
+	height: 20px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.clear30 {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.clear40 {
+	height: 40px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.clear50 {
+	height: 50px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+.t10{
+	margin-top:10px;
+}
+.t20{
+	margin-top:20px;
+}
+.t30{
+	margin-top:30px;
+}
+.t40{
+	margin-top:40px;
+}
+.b10{
+	margin-bottom:10px;
+}
+.b20{
+	margin-bottom:20px;
+}
+.b30{
+	margin-bottom:30px;
+}
+.b40{
+	margin-bottom:40px;
+}
+.l10{
+	margin-left:10px;
+}
+.l20{
+	margin-left:20px;
+}
+.l30{
+	margin-left:30px;
+}
+.l40{
+	margin-left:40px;
+}
+.r10{
+	margin-right:10px;
+}
+.r20{
+	margin-right:20px;
+}
+.r30{
+	margin-right:30px;
+}
+.r40{
+	margin-right:40px;
+}
+.p5{
+	padding:5px;
+}
+.p10{
+	padding:10px;
+}
+.p15{
+	padding:15px;
+}
+.p20{
+	padding:20px;
+}
+
+
+.textRight {
+	text-align: right;
+}
+.textCenter {
+	text-align: center;
+}
+.textLeft {
+	text-align: left;
+}
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+.hidden{
+	display:none;
+}
+/*---------------------- 鐢啫鐪�-------------------------*/
+
+/*---------------------- 閹稿鎸� -------------------------*/
+a.btn{
+	line-height:30px;
+}
+.btn {
+	box-sizing: border-box;
+	padding: 0px 10px;
+	min-width: 60px;
+	display: inline-block;
+	border-radius: 2px;
+	color: #246CB1;
+	font-size: 14px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid #C9C9C9;
+	-webkit-user-select: none;
+	margin-right: 16px;
+	font-style: normal;
+	outline: none;
+	height:30px;
+	line-height:27px;
+}
+
+/* -------------------------------閹稿鍙庢０婊嗗閸掞拷------------------------- */
+.btnOrange {
+	border: 1px solid #FF6633;
+	background: #FF6633;
+	color: #fff;
+}
+.btnYellow {
+	border: 1px solid #FFD338;
+	background: #FFD338;
+	color: #907107 !important;
+}
+.btnYellow:hover{
+	background: #F6C929;
+}
+.btnGrey {
+	border: 1px solid #dddddd;
+	background: #dddddd;
+	color: #898989;
+	font-size:14px;
+}
+
+
+.btnGrey:hover,.btnCancel:hover{
+	background: #acacac;
+	color: #fff;
+}
+.btnBlue {
+	border: 1px solid #3196C9;
+	background: #3196C9;
+	color: #fff !important;
+}
+.btnRed {
+	border: 1px solid #d43f3a;
+	background: #d9534f;
+	color: #fff !important;
+}
+.btnConfirm {
+	min-width: 60px; 
+	border: 1px solid #3196C9;
+	background: #3196C9;
+	color: #fff;
+}
+.btnBlue:hover,.btnConfirm:hover{
+	background: #1775a5;
+}
+
+/* -----------------------閹稿鍙庢０婊嗗閸掑攢nd----------------- */
+.btnMid {
+	width: 50px
+}
+
+.btn img{
+	margin: 0 5px -3px 0;
+}
+/* -----------------------閹稿鍙庢禍瀣╂閸掑攢nd----------------- */
+/* 閸欐牗绉� */
+.btnCancel {
+	border: 1px solid #dddddd;
+	background: #dddddd;
+	color: #898989;
+	font-size:14px;
+}
+/* 閸掔娀娅� */
+.btnRemove {
+	border: 1px solid #acacac;
+	color: #898989;
+	font-size:14px;
+	background: white;
+}
+/* 闁俺绻� */
+.btnPass {
+	border: 1px solid #76b9d8;
+	color: #76b9d8;
+	font-size:14px;
+	background: white;
+}
+/* 闁拷閸ワ拷 */
+.btnReject {
+	border: 1px solid #ff3d3d;
+	color: #ff3d3d;
+	font-size:14px;
+	background: white;
+}
+
+.btnReturn{
+	background: #fff;
+	border:1px solid #ef6566;
+	color: #ef6566;
+}
+
+.btnDelete{
+	background: #fff;
+	border:1px solid #d1d1d1;
+	color: #acacac;
+}
+
+/* 閺屻儴顕楅崶鐐垼 */
+.btn.search {
+    position: relative;
+    padding-left: 26px;
+}
+.btn.search:after {
+    content: url(../image/search1.png);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    height:25px;
+    line-height:24px;
+}
+
+/* 閺傛澘顤冮崶鐐垼 */
+.btn.add{
+	position: relative;
+    padding-left: 26px;
+}
+.btn.add:after {
+    content: url(../image/add.png);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    height:25px;
+    line-height:24px;
+}
+/* 鐎电厧鍙嗛崶鐐垼 */
+.btn.import{
+	position: relative;
+    padding-left: 26px;
+}
+.btn.import:after {
+    content: url(../image/import.png);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    height:25px;
+    line-height:24px;
+}
+
+/* 鐎电厧鍙嗛崶鐐垼 */
+.btn.export{
+	position: relative;
+    padding-left: 26px;
+}
+.btn.export:after {
+    content: url(../image/export1.png);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    height:25px;
+    line-height:24px;
+}
+
+.btn.delete{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.delete:after {
+	content: url(../image/delete.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.save{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.save:after {
+	content: url(../image/save.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+/* 閸掗攱鏌婇崶鐐垼 */
+.btn.refresh{
+	position: relative;
+    padding-left: 26px;
+}
+.btn.refresh:after {
+    content: url(../image/refresh.png);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    height:25px;
+    line-height:24px;
+}
+
+.btn.edit{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.edit:after {
+	content: url(../image/icon_amend.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.assess{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.assess:after {
+	content: url(../image/icon_assess.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.close{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.close:after {
+	content: url(../image/icon_close.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.download{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.download:after {
+	content: url(../image/icon_downloading.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.report{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.report:after {
+	content: url(../image/icon_report.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.repulse{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.repulse:after {
+	content: url(../image/icon_repulse.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.view{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.view:after {
+	content: url(../image/icon_view.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+.btn.uploading{
+	position: relative;
+	padding-left: 26px;
+}
+.btn.uploading:after {
+	content: url(../image/icon_uploading.png);
+	position: absolute;
+	left: 8px;
+	top: 5px;
+	height:25px;
+	line-height:24px;
+}
+
+/* 鐠佸墽鐤嗛崶鐐垼 */
+.btn.setting{
+	position: relative;
+    padding-left: 26px;
+}
+.btn.setting:after {
+    content: url(../image/setting.png);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    height:25px;
+    line-height:24px;
+}
+
+/* 閹俱倝鏀㈤崶鐐垼 */
+.btn.revert{
+	position: relative;
+    padding-left: 26px;
+}
+.btn.revert:after {
+    content: url(../image/revocation.png);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    height:25px;
+    line-height:24px;
+}
+.upload{
+    height: 55px;
+    width: 60px;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+}
+/*---------------------- 閹稿鎸� -------------------------*/
+
+
+/*----------ko妤犲矁鐦夐弽宄扮础-------------*/
+
+ .validationMessage  {
+ 	color: #911;
+    background-color: rgb(255,255,204);
+    border-color: rgb(204,153,51);
+    z-index: 10;
+    padding: 5px;
+    outline: none;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    margin: 4px 4px 0;
+    font-size: 13px;
+    font-weight: normal;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: normal;
+    position: absolute;
+    word-break: normal;
+    line-height: 20px;
+ } 
+/*  .validationMessage:after{
+	content:'';
+	position:absolute;
+	height:0;
+	width:0;
+	border: 10px solid;
+    border-color: transparent #fcdede transparent transparent;
+    left: -20px;
+    top: -2px;
+} */ 
+/*----------ko妤犲矁鐦夐弽宄扮础-------------*/
+
+.table {
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	display: table;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.table-bordered {
+	border: 1px solid #ddd;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th,
+	.table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th,
+	.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border: 1px solid #ddd;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th,
+	.table>thead>tr>td, .table>thead>tr>th {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+label{
+color:red
+}
+
